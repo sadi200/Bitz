@@ -1,26 +1,10 @@
-# Guide to Bitz Miner CLI on Eclipse🪂🪂
+# Bitz Miner CLI on Eclipse
 
-**❤️❤️Follow our TG for More Early Alpha: https://telegram.me/feature_earning**
----
 
 ## Install Dependecies
 **1. Install Packages**
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y
-
-sudo apt install screen curl nano  -y
-```
-**2. Install Rust**
-```bash
- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-* When Prompted, Enter `1` and wait unti installation compelete.
-```bash
-source $HOME/.cargo/env
-```
-**3. Install Solana CLI:**
-```bash
-curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+bash <(curl -s https://raw.githubusercontent.com/sadi200/Bitz/refs/heads/main/run1/run.sh)
 ```
 * Close and reopen your Terminal.
 ```
@@ -37,7 +21,7 @@ solana --version
 
 **4. Switch RPC**
 ```bash
-solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
+solana config set --url https://bitz-000.eclipserpc.xyz
 ```
 
 ---
@@ -67,9 +51,6 @@ screen -S bitz
 ```bash
 bitz collect
 ```
-
-![image](https://github.com/user-attachments/assets/7c526a4b-07da-4ad5-889f-17674761b5e7)
-
 
 ### Usefull Commands
 
